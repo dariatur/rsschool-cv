@@ -5,4 +5,5 @@
 * Discord: @dariatur
 * Github: [Daria Tur](https://github.com/dariatur)
 ## About me
-I'm 23 years old. I don't have previous work expirience in IT sphere. But in 2021 I understood that I want to develop my skills in such direction, because I think it's really interesting to be part of developing process. 
+I'm 23 years old. I don't have previous work expirience in IT sphere. But in 2021 I understood that I want to develop my skills in such direction, because I think it's really interesting to be part of developing process. I learnt a little bit Python, Java and now I decided to try to learn frontend.
+
