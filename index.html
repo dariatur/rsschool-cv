@@ -7,21 +7,35 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <title>CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;400;600&display=swap" rel="stylesheet">
+    <title>cv</title>
 </head>
 <body>
     <header class="header">
-        <div class="header__wrapper">
-            <h1 class="header__title">
+        <nav class="header__navigation">
+            <ul class="navigation__list">
+                <li class="nav__item"><a href="#profile" class="nav__link">Profile</a></li>
+                <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                <li class="nav__item"><a href="#languages" class="nav__link">Languages</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="name">
+        <div class="name__wrapper">
+            <h1 class="name__title">
                 DARIA TUR
             </h1>
-        </div>
-        <div class="rectangle"></div>
-    </header>
+            <div class="rectangle"></div>
+        </div> 
+    </section>
+
     <main>
         <div class="main__wrapper">
-            <div class="main__profile">
+            <div class="main__profile" id="profile">
                 <h3 class="main__title">
                     PROFILE
                 </h3>
@@ -30,7 +44,7 @@
                 </p>
             </div>
             
-            <div class="main__contacts">
+            <div class="main__contacts" id="contacts">
                 <h3 class="main__title">
                     CONTACTS
                 </h3>
@@ -60,7 +74,7 @@
                 </div> 
             </div>
             
-            <div class="main__skills">
+            <div class="main__skills" id="skills">
                 <h3 class="main__title">
                     SKILLS
                 </h3>
@@ -74,11 +88,27 @@
                 </ul>
             </div>
             
-            <div class="main__education">
+            <div class="main__education" id="education">
                 <h3 class="main__title">
                     EDUCATION
                 </h3>
+                <ul class="education">
+                    <li>Brest state university named after A. S. Pushkin (Speciality is Economic cybernetics)</li>
+                    <li>Epam course "Introduction to Java"</li> 
+                    <li>Java Basics and Java Basics on learn.epam.com</li>
+                </ul>
             </div>
+
+            <div class="main__languages" id="languages">
+                <h3 class="main__title">
+                    LANGUAGES
+                </h3>
+                <ul class="languages">
+                    <li>Russian</li>
+                    <li>English</li> 
+                </ul>
+            </div>
+
         </div>
     </main>
 </body>
