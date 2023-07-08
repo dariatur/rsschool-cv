@@ -1,5 +1,6 @@
 body {
   background-color: #f5fde8;
+  background: linear-gradient(0deg ,#d9f8aa 0%, #7ec7f5 100%);
   font-family: 'Hanken Grotesk', sans-serif;
   display: flex;
   flex-direction: column;
@@ -17,20 +18,20 @@ html {
 
 .header{
   background-color: #75C2F2;
-  width: 1080px;
+  width: auto;
   height: 60px;
+  margin: 0px;
 }
 
 .navigation__list{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-
 }
 
 .nav__link{
   padding: 0 20px;
-  line-height: 50px;
+  /* line-height: 50px; */
   text-decoration: none;
   color: #f5fde8;
 }
@@ -40,6 +41,22 @@ html {
   color: #C2F275;
 }
 
+.main__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 63px;
+}
+
+section{
+  width: 50%;
+}
+
+@media (max-width: 1188px) {
+  section {
+    width: 100%;
+  }
+}
+
 .name__wrapper{
   display: flex;
   flex-direction: column;
@@ -47,7 +64,7 @@ html {
 }
 
 .name__title{
-  color: #f275c2;
+  color: #f5fde8;
   width: 476px;
   height: 60px;
   font-weight: 700;
@@ -56,20 +73,20 @@ html {
 }
 
 .rectangle{
-  background-color: #f275c2;
+  background-color: #f5fde8;
   width: 539px;
   height: 5px;
 }
 
-.main__wrapper{
-  margin-left: 63px;
+.main__title{
+  color: #f5fde8;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 1.65px;
 }
 
-.main__title{
-  color: #f275c2;
-  font-weight: 700;
-  font-size: 30px;
-  letter-spacing: 1.65px;
+ul{
+  padding-inline-start: 0px;
 }
 
 p, li{
@@ -77,4 +94,24 @@ p, li{
   list-style: none;
 }
 
+p{
+  width: 539px;
+}
+
+.contacts__link{
+  color: #3E6B89;
+  text-decoration: none;
+}
+
+.contacts__link:hover{
+  color: #f5fde8;
+  text-decoration: underline;
+}
+
+.footer{
+  background-color: #ccf095;
+  width: auto;
+  height: 60px;
+  margin: 0px;
+}
 
