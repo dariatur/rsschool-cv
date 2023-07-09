@@ -137,7 +137,7 @@
                     <li class="skills__item">PostgreSQL</li>
                     <li class="skills__item">OOP</li>
                 </ul>
-                <div skills__table>
+                <div class="skills__table">
                     <ul class="skills__score">
                         <li class="marked"></li>
                         <li class="marked"></li>
@@ -198,9 +198,7 @@
                     <h5 class="prog_language">
                         Python
                     </h5>
-                    <code class="code__example">
-                        <pre>
-def duplicate_encode(word):
+                    <pre><code class="code__example">def duplicate_encode(word):
     res = ""
     word = word.lower()
     for i in word:
@@ -209,19 +207,17 @@ def duplicate_encode(word):
         else:
             res += ")"
     return res
-                        </pre>
-                    </code>
+                    </code></pre>
+
                 </div>
                 <div class="code">
                     <h5 class="prog_language">
                         Java
                     </h5>
-                    <code class="code__example">
-                        <pre>
-public class Solution {
+                    <pre><code class="code__example">public class Solution {
   public int solution(int number) {
     int sum = 0;
-    for(int i = 1; i&ltnumber;i++){
+    for(int i = 1; i &#60; number;i++){
       if(i%3 == 0 || i%5 == 0){
         sum+=i;
       }
@@ -229,9 +225,9 @@ public class Solution {
     return sum;
   }
 }
-                        </pre>
-                    </code>
+                    </code> </pre>
                 </div>
+            </div>
             </section>
 
             <section class="main__languages" id="languages">
@@ -244,7 +240,7 @@ public class Solution {
                         <li class="languages__item">Russian</li>
                     </ul>
 
-                    <div skills__table>
+                    <div class="skills__table">
                         <ul class="skills__score">
                             <li class="marked"></li>
                             <li class="marked"></li>
@@ -263,11 +259,8 @@ public class Solution {
                 </div>
                 
             </section>
-
-        </div>
         </div>
     </main>
-</body>
 <footer class="footer">
     <h2>
         2023
@@ -281,4 +274,5 @@ public class Solution {
         <img src="./images/rs_school_js.svg" alt="logo rs school" class="logo">
     </a>
 </footer>
+</body>
 </html>

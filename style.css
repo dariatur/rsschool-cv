@@ -147,12 +147,6 @@ p{
   align-items: center;
 }
 
-.skills__table{
-  display: flex;
-  flex-direction: column;
-  height: 198px;
-}
-
 .skills{
   margin: 0px;
 }
@@ -210,6 +204,7 @@ p{
 .prog_language{
   color: #9bc15e;
   font-size: medium;
+  margin: 10px 0px;
 }
 
 .education__item{
