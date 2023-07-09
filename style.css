@@ -5,6 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0px;
 }
 
 html {
@@ -20,7 +21,7 @@ html {
   background-color: #75C2F2;
   width: auto;
   height: 60px;
-  margin: 0px;
+  /* padding: 0px; */
 }
 
 .navigation__list{
@@ -31,7 +32,6 @@ html {
 
 .nav__link{
   padding: 0 20px;
-  /* line-height: 50px; */
   text-decoration: none;
   color: #f5fde8;
 }
@@ -92,6 +92,7 @@ ul{
 p, li{
   color: #3E6B89;
   list-style: none;
+  padding-bottom: 12px;
 }
 
 p{
@@ -106,6 +107,28 @@ p{
 .contacts__link:hover{
   color: #f5fde8;
   text-decoration: underline;
+}
+
+.examples{
+  display: flex;
+  justify-content: space-between;
+  width: 580px;
+}
+
+.code{
+  background-color: #f5fde8;
+  width: fit-content;
+  padding:0 10px;
+  border: 0.5px solid #3E6B89;
+}
+
+.prog_language{
+  color: #9bc15e;
+  font-size: medium;
+}
+
+.code__example{
+  color: #3E6B89;
 }
 
 .footer{

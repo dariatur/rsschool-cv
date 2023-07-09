@@ -85,12 +85,12 @@
                     SKILLS
                 </h3>
                 <ul class="skills">
-                    <li>Java</li>
-                    <li>Python</li>
-                    <li>Git</li>
-                    <li>SQL</li>
-                    <li>PostgreSQL</li>
-                    <li>Object-Oriented Programming</li>
+                    <li class="skills__item">Java</li>
+                    <li class="skills__item">Python</li>
+                    <li class="skills__item">Git</li>
+                    <li class="skills__item">SQL</li>
+                    <li class="skills__item">PostgreSQL</li>
+                    <li class="skills__item">Object-Oriented Programming</li>
                 </ul>
             </section>
             
@@ -105,6 +105,59 @@
                 </ul>
             </section>
 
+            <section class="main__projects" id="projects">
+                <h3 class="main__title">
+                    PROJECTS
+                </h3>
+
+            </section>
+
+            <section class="main__code_examples" id="code_examples">
+                <h3 class="main__title">
+                    CODE EXAMPLES
+                </h3>
+                <div class="examples">
+                <div class="code">
+                    <h5 class="prog_language">
+                        Python
+                    </h5>
+                    <code class="code__example">
+                        <pre>
+def duplicate_encode(word):
+    res = ""
+    word = word.lower()
+    for i in word:
+        if word.count(i)==1:
+            res += "("
+        else:
+            res += ")"
+    return res
+                        </pre>
+                    </code>
+                </div>
+                <div class="code">
+                    <h5 class="prog_language">
+                        Java
+                    </h5>
+                    <code class="code__example">
+                        <pre>
+public class Solution {
+
+  public int solution(int number) {
+    int sum = 0;
+    for(int i = 1; i&ltnumber;i++){
+      if(i%3 == 0 || i%5 == 0){
+        sum+=i;
+      }
+    }
+    return sum;
+  }
+}
+                        </pre>
+                    </code>
+                </div>
+            </section>
+
             <section class="main__languages" id="languages">
                 <h3 class="main__title">
                     LANGUAGES
@@ -115,21 +168,7 @@
                 </ul>
             </section>
 
-            <section class="main__code_examples" id="code_examples">
-                <h3 class="main__title">
-                    CODE EXAMPLES
-                </h3>
-
-            </section>
-
-            <section class="main__projects" id="projects">
-                <h3 class="main__title">
-                    PROJECTS
-                </h3>
-
-            </section>
-
-
+        </div>
         </div>
     </main>
 </body>
