@@ -1,12 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;400;600&display=swap" rel="stylesheet">
+    <title>cv</title>
 </head>
 <body>
+    <header class="header">
+        <nav class="header__navigation">
+            <ul class="navigation__list">
+                <li class="nav__item"><a href="#profile" class="nav__link">Profile</a></li>
+                <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                <li class="nav__item"><a href="#languages" class="nav__link">Languages</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Code examples</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+    <section class="name">
+        <div class="name__wrapper">
+            <div class="title"> 
+                <h1 class="name__title">
+                DARIA TUR
+                </h1>
+                <h2 class="status"> 
+                    Trainee Software Engineer
+                </h2>
+            </div>
+            <img src="./images/photo.jpg" alt="photo" class="photo">
+        </div> 
+        <div class="rectangle"></div>
+    </section>
 
+    <main>
+        <div class="main__wrapper">
+            <section class="main__profile" id="profile">
+                <h3 class="main__title">
+                    PROFILE
+                </h3>
+                <p class="main__info">
+                    I'm 23 years old. I don't have previous work expirience in IT sphere. 
+                    But in 2021 I understood that I want to develop my skills in such direction, 
+                    because I think it's really interesting to be part of developing process. 
+                    I learnt a little bit Python, Java and now I decided to try to learn frontend. I am easy to learn, 
+                    hardworking and also very motivated to develop my skills and grow professionally.
+                </p>
+            </section>
+            
+            <section class="main__contacts" id="contacts">
+                <h3 class="main__title">
+                    CONTACTS
+                </h3>
+                <ul class="contacts__list">
+                    <li class="contacts__item"> 
+                        <img src="./images/email.svg" alt="email" class="contacts__image">
+                        <a href="mailto:dariaturandr@gmail.com" class="contacts__link">
+                            dariaturandr@gmail.com
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <img src="./images/linkedin.svg" alt="linkedin" class="contacts__image">
+                        <a href="https://www.linkedin.com/in/daria-tur-78b174205/" target="_blank" class="contacts__link">
+                            Daria Tur
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <img src="./images/github.svg" alt="github" class="contacts__image">
+                        <a href="https://github.com/dariatur" target="_blank"  class="contacts__link">
+                            Daria Tur
+                        </a>
+                    </li> 
+                    <li class="contacts__item">
+                        <img src="./images/discord.svg" alt="" class="contacts__image">
+                        <a href="" class="contacts__link">
+                            @dariatur
+                        </a>
+                    </li> 
+                </ul>
+            
+            </section>
+            
+            <section class="main__education" id="education">
+                <h3 class="main__title">
+                    EDUCATION
+                </h3>
+                <ul class="education">
+                    <li class="education__item">Brest state university named after A. S. Pushkin (Speciality is Economic cybernetics)</li>
+                    <li class="education__item">Epam course "Introduction to Java"</li> 
+                    <li class="education__item">Java Basics and Java Collections on learn.epam.com</li>
+                </ul>
+            </section>
+
+            <section class="main__projects" id="projects">
+                <h3 class="main__title">
+                    PROJECTS
+                </h3>
+                <ul class="projects__list">
+                    <li class="projects__item">
+                        <a href="https://github.com/dariatur/6_Tasks/tree/master/module_6/home_library" target="_blank" class="projects__link"> 
+                            Concole application "Home library" (Java)
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <a href="https://github.com/dariatur/2_Algorithmization" target="_blank" class="projects__link">
+                            50 solved algorithmic tasks (Java)
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <a href="https://github.com/dariatur/2_Algorithmization" target="_blank" class="projects__link">
+                            CV (HTML & CSS)
+                        </a>
+                    </li>
+
+                </ul>
+
+            </section>
+            
+            <section class="main__skills" id="skills">
+                <h3 class="main__title">
+                    SKILLS
+                </h3>
+                <div class="skills__columns">
+                <ul class="skills">
+                    <li class="skills__item">Java</li>
+                    <li class="skills__item">Python</li>
+                    <li class="skills__item">Git</li>
+                    <li class="skills__item">SQL</li>
+                    <li class="skills__item">PostgreSQL</li>
+                    <li class="skills__item">OOP</li>
+                </ul>
+                <div class="skills__table">
+                    <ul class="skills__score">
+                        <li class="marked"></li>
+                        <li class="marked"></li>
+                        <li class="marked"></li>
+                        <li class="unmarked"></li>
+                        <li class="unmarked"></li>
+                    </ul>
+                
+                    <ul class="skills__score">
+                        <li class="marked"></li>
+                        <li class="unmarked"></li>
+                        <li class="unmarked"></li>
+                        <li class="unmarked"></li>
+                        <li class="unmarked"></li>
+                    </ul>
+                
+                    <ul class="skills__score">
+                        <li class="marked"></li>
+                        <li class="marked"></li>
+                        <li class="unmarked"></li>
+                        <li class="unmarked"></li>
+                        <li class="unmarked"></li>
+                    </ul>
+
+                    <ul class="skills__score">
+                        <li class="marked"></li>
+                        <li class="marked"></li>
+                        <li class="unmarked"></li>
+                        <li class="unmarked"></li>
+                        <li class="unmarked"></li>
+                    </ul>
+          
+                    <ul class="skills__score">
+                        <li class="marked"></li>
+                        <li class="unmarked"></li>
+                        <li class="unmarked"></li>
+                        <li class="unmarked"></li>
+                        <li class="unmarked"></li>
+                    </ul>
+
+                    <ul class="skills__score">
+                        <li class="marked"></li>
+                        <li class="marked"></li>
+                        <li class="marked"></li>
+                        <li class="unmarked"></li>
+                        <li class="unmarked"></li>
+                    </ul>
+                </div>
+            </div>
+            </section>
+
+            <section class="main__code_examples" id="code_examples">
+                <h3 class="main__title">
+                    CODE EXAMPLES
+                </h3>
+                <div class="examples">
+                <div class="code">
+                    <h5 class="prog_language">
+                        Python
+                    </h5>
+                    <pre><code class="code__example">def duplicate_encode(word):
+    res = ""
+    word = word.lower()
+    for i in word:
+        if word.count(i)==1:
+            res += "("
+        else:
+            res += ")"
+    return res
+                    </code></pre>
+
+                </div>
+                <div class="code">
+                    <h5 class="prog_language">
+                        Java
+                    </h5>
+                    <pre><code class="code__example">public class Solution {
+  public int solution(int number) {
+    int sum = 0;
+    for(int i = 1; i &#60; number;i++){
+      if(i%3 == 0 || i%5 == 0){
+        sum+=i;
+      }
+    }
+    return sum;
+  }
+}
+                    </code> </pre>
+                </div>
+            </div>
+            </section>
+
+            <section class="main__languages" id="languages">
+                <h3 class="main__title">
+                    LANGUAGES
+                </h3>
+                <div class="skills__columns">
+                    <ul class="languages">
+                        <li class="languages__item">English</li> 
+                        <li class="languages__item">Russian</li>
+                    </ul>
+
+                    <div class="skills__table">
+                        <ul class="skills__score">
+                            <li class="marked"></li>
+                            <li class="marked"></li>
+                            <li class="marked"></li>
+                            <li class="unmarked"></li>
+                            <li class="unmarked"></li>
+                        </ul>
+                        <ul class="skills__score">
+                            <li class="marked"></li>
+                            <li class="marked"></li>
+                            <li class="marked"></li>
+                            <li class="marked"></li>
+                            <li class="marked"></li>
+                        </ul>                 
+                </div>
+                </div>
+                
+            </section>
+        </div>
+    </main>
+<footer class="footer">
+    <h2>
+        2023
+    </h2>
+
+    <a href="https://github.com/dariatur" target="_blank">
+        <img src="./images/github-2.svg" alt="logo github" class="logo">
+    </a>
+    
+    <a href="https://rs.school/js/" target="_blank" class="logo__link">
+        <img src="./images/rs_school_js.svg" alt="logo rs school" class="logo">
+    </a>
+</footer>
 </body>
 </html>
